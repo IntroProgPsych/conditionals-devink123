@@ -7,3 +7,19 @@
 # 70-79: C
 # 60-69: D
 # Below 60: F
+
+
+score = int(input("Type your score"))
+if score <=90:
+    print("A")
+if score ==80-89:
+    print("B")
+if score ==70-79:
+    print("C")
+if score ==60-69:
+    print("D")   
+else: 
+    print("you are a child")
+
+
+
