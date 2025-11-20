@@ -17,3 +17,8 @@
 
 # Write your code here:
 
+integer = int(input("Type an integer number"))
+if integer <0:
+    print (integer * -1)
+else:
+    print (integer)

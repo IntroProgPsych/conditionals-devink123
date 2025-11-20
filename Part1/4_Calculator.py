@@ -30,3 +30,12 @@
 
 # Write your code here:
 
+integer = int(input("Number 1:"))
+integer2 = int(input("Number 2:"))
+operation = str(input("Operation:"))
+if operation=="add":
+    print(integer + integer2)
+if operation=="multiply":
+    print(integer * integer2)
+if operation=="substract":
+    print(integer - integer2)
