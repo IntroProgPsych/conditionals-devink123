@@ -12,14 +12,14 @@
 score = int(input("Type your score"))
 if score <=90:
     print("A")
-if score ==80-89:
+if score ==80 and score <=89:
     print("B")
-if score ==70-79:
+if score ==70 and score <=79:
     print("C")
-if score ==60-69:
+if score ==60 and score <=69:
     print("D")   
-else: 
-    print("you are a child")
+elif score >60: 
+    print("F")
 
 
 
